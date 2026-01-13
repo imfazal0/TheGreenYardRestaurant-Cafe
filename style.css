@@ -1324,7 +1324,9 @@ section {
 .book-button-text{
     display: none;
 }
-
+#subscribe-email{
+    width: 200px;
+}
 
 }
 

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenYard | Pure Vegetarian Restaurant & Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="#">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="fas fa-leaf"></i>
+                    <span>Green<span class="logo-highlight">Yard</span></span>
+                </a>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#menu" class="nav-link">Menu</a></li>
+                    <li><a href="#events" class="nav-link">Events</a></li>
+                    <li><a href="#reservation" class="nav-link">Reservations</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="veg-badge">
+                <i class="fas fa-seedling"></i>
+                <span>100% Pure Vegetarian</span>
+            </div>
+            <h1 class="hero-title">Shahjahanpur's <span class="highlight">Plant-Powered</span> Paradise</h1>
+            <p class="hero-subtitle">Fresh ingredients, vibrant flavors, and a green oasis for food lovers.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary"><i class="fas fa-utensils"></i> View Menu</a>
+                <a href="#reservation" class="btn btn-secondary"><i class="fas fa-calendar-check"></i> Book a Table</a>
+                <a href="#events" class="btn btn-outline"><i class="fas fa-tv"></i> Sports Schedule</a>
+            </div>
+            <div class="hero-features">
+                <div class="feature">
+                    <i class="fas fa-wifi"></i>
+                    <span>Free High-Speed Wi-Fi</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tree"></i>
+                    <span>Outdoor Seating</span>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tv"></i>
+                    <span>Live Sports Screenings</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="highlight">Green</span> Story</h2>
+                <p class="section-subtitle">Pure Veg. Pure Taste. Pure Green Vibes.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At <strong>GreenYard</strong>, we believe in the power of plants to create extraordinary culinary experiences. Founded with a passion for vegetarian cuisine, we've created a vibrant oasis where freshness meets flavor.</p>
+                    
+                    <div class="promise-grid">
+                        <div class="promise-card">
+                            <div class="promise-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Pure Assurance</h4>
+                            <p>Separate vegetarian kitchen. No egg or animal-based ingredients.</p>
+                        </div>
+                        
+                        <div class="promise-card">
+                            <div class="promise-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>For Everyone</h4>
+                            <p>A welcoming space where everyone can dine together in harmony.</p>
+                        </div>
+                        
+                        <div class="promise-card">
+                            <div class="promise-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <h4>Planet-Friendly</h4>
+                            <p>Celebrating flavors that are lighter on our planet.</p>
+                        </div>
+                        
+                        <div class="promise-card">
+                            <div class="promise-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h4>Healthy Indulgence</h4>
+                            <p>Delicious food that makes you feel good, inside and out.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="GreenYard Restaurant Interior">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our <span class="highlight">Veggie</span> Menu</h2>
+                <p class="section-subtitle">Fresh, flavorful, and 100% vegetarian delights</p>
+            </div>
+            
+            <div class="menu-filters">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="starters">Garden Starters</button>
+                <button class="filter-btn" data-filter="mains">Comfort Mains</button>
+                <button class="filter-btn" data-filter="specials">GreenYard Specials</button>
+                <button class="filter-btn" data-filter="beverages">Beverages</button>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu items will be generated by JavaScript -->
+            </div>
+            
+            <div class="menu-cta">
+                <p>Want to order for delivery?</p>
+                <div class="delivery-buttons">
+                    <a href="#" class="btn btn-delivery" id="zomato-btn">
+                        <i class="fas fa-bolt"></i> Order on Zomato
+                    </a>
+                    <a href="#" class="btn btn-delivery" id="swiggy-btn">
+                        <i class="fas fa-motorcycle"></i> Order on Swiggy
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events" id="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Upcoming <span class="highlight">Events</span></h2>
+                <p class="section-subtitle">Join us for sports, music, and special nights</p>
+            </div>
+            
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>IPL Final Screening</h3>
+                        <p><i class="far fa-clock"></i> 7:00 PM - 11:30 PM</p>
+                        <p>Watch the IPL final on our giant outdoor screen with special match-day snacks!</p>
+                        <a href="#reservation" class="event-btn">Book Your Spot</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">19</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Live Acoustic Night</h3>
+                        <p><i class="far fa-clock"></i> 6:30 PM - 9:30 PM</p>
+                        <p>Enjoy soothing acoustic melodies in our green yard with a special dinner menu.</p>
+                        <a href="#reservation" class="event-btn">Reserve Table</a>
+                    </div>
+                </div>
+                
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">24</span>
+                        <span class="month">MAY</span>
+                    </div>
+                    <div class="event-content">
+                        <h3>Farmers' Table Brunch</h3>
+                        <p><i class="far fa-clock"></i> 10:00 AM - 2:00 PM</p>
+                        <p>Special Sunday brunch featuring seasonal vegetables from local farms.</p>
+                        <a href="#reservation" class="event-btn">Join Brunch</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sports-highlight">
+                <h3><i class="fas fa-tv"></i> Regular Sports Screenings</h3>
+                <p>We show all major cricket, football, and tennis matches. Check our social media for daily schedules!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation" id="reservation">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Book Your <span class="highlight">Table</span></h2>
+                <p class="section-subtitle">Reserve your spot at GreenYard</p>
+            </div>
+            
+            <div class="reservation-wrapper">
+                <div class="reservation-form">
+                    <form id="booking-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Full Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date"><i class="far fa-calendar"></i> Date</label>
+                                <input type="date" id="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="time"><i class="far fa-clock"></i> Time</label>
+                                <input type="time" id="time" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guests"><i class="fas fa-users"></i> Number of Guests</label>
+                                <select id="guests" required>
+                                    <option value="">Select</option>
+                                    <option value="1-2">1-2 People</option>
+                                    <option value="3-4">3-4 People</option>
+                                    <option value="5-6">5-6 People</option>
+                                    <option value="7+">7+ People</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="seating"><i class="fas fa-chair"></i> Seating Preference</label>
+                                <select id="seating" required>
+                                    <option value="">Select</option>
+                                    <option value="outdoor">Outdoor (Garden)</option>
+                                    <option value="indoor">Indoor (AC)</option>
+                                    <option value="any">Any Available</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="special"><i class="far fa-edit"></i> Special Requests (Optional)</label>
+                            <textarea id="special" placeholder="Birthday celebration, allergy information, etc." rows="3"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Confirm Reservation
+                        </button>
+                    </form>
+                    
+                    <div class="form-note">
+                        <p><i class="fas fa-info-circle"></i> You'll receive a WhatsApp confirmation within 15 minutes.</p>
+                    </div>
+                </div>
+                
+                <div class="reservation-info">
+                    <h3>Why Book With Us?</h3>
+                    <ul class="info-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Best Outdoor Seating:</strong> Experience dining in our lush green yard.</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Sports Friendly:</strong> Perfect view of screens from most tables.</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Wi-Fi Zone:</strong> Free high-speed internet for work or leisure.</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Family Friendly:</strong> Safe, pure-veg environment for all ages.</li>
+                    </ul>
+                    
+                    <div class="opening-hours">
+                        <h4><i class="far fa-clock"></i> Opening Hours</h4>
+                        <div class="hours-row">
+                            <span>Monday - Thursday</span>
+                            <span>11:00 AM - 11:00 PM</span>
+                        </div>
+                        <div class="hours-row">
+                            <span>Friday - Sunday</span>
+                            <span>11:00 AM - 11:30 PM</span>
+                        </div>
+                        <div class="hours-row highlight">
+                            <span>Weekend Brunch</span>
+                            <span>10:00 AM - 2:00 PM</span>
+                        </div>
+                    </div>
+                    
+                    <div class="whatsapp-booking">
+                        <a href="https://wa.me/919876543210?text=Hi%20GreenYard%21%20I'd%20like%20to%20book%20a%20table." class="btn btn-whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Book via WhatsApp
+                        </a>
+                        <p>Quick response guaranteed!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Find <span class="highlight">Us</span></h2>
+                <p class="section-subtitle">Visit our green oasis in Shahjahanpur</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Our Location</h4>
+                            <p>Behind St. H. N. School<br>Civil Lines, Shahjahanpur<br>Uttar Pradesh - 242001</p>
+                            <p class="landmark"><i class="fas fa-map-signs"></i> <strong>Landmark:</strong> Look for the green entrance arch behind the school main gate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Contact Us</h4>
+                            <p><strong>Phone:</strong> <a href="tel:+919876543210">+91 98765 43210</a></p>
+                            <p><strong>Email:</strong> <a href="mailto:hello@greenyard.com">hello@greenyard.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Join The Green Club</h4>
+                            <p>Get exclusive offers, event alerts, and vegetarian recipes!</p>
+                            <div class="subscribe-form">
+                                <input type="email" placeholder="Enter your email" id="subscribe-email">
+                                <button class="btn btn-subscribe" id="subscribe-btn">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Follow Our Veggie Journey</h4>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-google"></i> Review</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <div class="map-overlay">
+                            <h3><i class="fas fa-map-pin"></i> How to Reach Us</h3>
+                            <p>From St. H. N. School main gate, take the left lane and go behind the school building. Look for our green signage.</p>
+                            <a href="https://maps.google.com/?q=GreenYard+Restaurant+Shahjahanpur" class="btn btn-map" target="_blank">
+                                <i class="fas fa-directions"></i> Open in Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>Green<span class="logo-highlight">Yard</span></span>
+                    </a>
+                    <p>Shahjahanpur's favorite pure vegetarian restaurant & cafe since 2018.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#reservation">Book a Table</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Visit Us Today</h4>
+                    <p><i class="far fa-clock"></i> Open Daily: 11:00 AM - 11:30 PM</p>
+                    <p><i class="fas fa-leaf"></i> 100% Pure Vegetarian</p>
+                    <p><i class="fas fa-star"></i> Rated 4.6/5 on Google</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 GreenYard Restaurant & Cafe. All rights reserved. | Designed with <i class="fas fa-heart"></i> for vegetarians.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Action Buttons -->
+    <div class="action-buttons">
+        <a href="tel:+919876543210" class="action-btn call-btn">
+            <i class="fas fa-phone"></i>
+        </a>
+        <a href="https://wa.me/919876543210" class="action-btn whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#reservation" class="action-btn booking-btn">
+            <i class="fas fa-calendar-check"></i>
+            <span>Book Now</span>
+        </a>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Reservation Confirmed!</h3>
+            <p>Thank you for booking with GreenYard. You'll receive a WhatsApp confirmation shortly.</p>
+            <button class="btn btn-primary" id="close-modal">Great!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

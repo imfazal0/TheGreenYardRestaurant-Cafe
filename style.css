@@ -1320,6 +1320,12 @@ section {
     border-radius: 50px;
     font-size: 16px;
 }
+
+.book-button-text{
+    display: none;
+}
+
+
 }
 
 .action-buttons{
@@ -1333,7 +1339,4 @@ section {
     flex-direction: column;
     /* font-size: 10px; */
 
-}
-.book-button-text{
-    display: none;
 }

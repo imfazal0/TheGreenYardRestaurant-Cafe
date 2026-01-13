@@ -186,10 +186,6 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="menu-item-tags">
                         ${tagsHTML}
                     </div>
-                    <div class="menu-item-btn">
-                        <button class="order-btn" data-id="${item.id}">Add to Order</button>
-                        <span class="menu-item-category">${item.category.charAt(0).toUpperCase() + item.category.slice(1)}</span>
-                    </div>
                 </div>
             `;
             
